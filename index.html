@@ -8,16 +8,25 @@
 </head>
 <body>
     <nav>
-       <i class="betty"><img src="./icon.jpg" alt="" style="height: 90px; width: 90px;border-radius: 50%;"></i>
-       <label for="about">About</label>
-       <label for="menu">Menu</label>
-       <label for="contact">Contact</label>
-
+       <i class="betty"><img src="./icons/icon.jpg" alt="" style="height: 90px; width: 90px;border-radius: 50%;"></i>
+       <ol>
+        <li>
+            <a href="#about">About</a>
+        </li>
+        <li>
+            <a href="#menu">Menu</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+       </ol>
     </nav>
+    <section>
     <header class="top">
         <h1>Bettyś "A Cup o Sports"</h1>
         <h2>Best sports and coffee in town</h2>
     </header>
+    </section>
     <h3>The 4 corners of the Cafe</h3>
     <section class="container">
       <div class="card" style="width: 25rem;">
@@ -47,7 +56,7 @@
           </div>
           </div>
      </section>
-     <section>
+     <section id="about">
       <h5 class="card-title">About us</h5>          
     <div class="card-group">
       <div class="about">
@@ -63,6 +72,7 @@
         <img src="./pics/pics/new size.jpg" alt="" style="width: 100%; border-bottom-left-radius: 22%; border-bottom-right-radius: 15%; border-top-left-radius: 15%; border-top-right-radius: 15%;">
         <h5 class="card-title">Menu</h5>
     </div>
+    <section id="menu">
     <div class="menu">
       <div class="coffee">
         <table>
@@ -188,22 +198,34 @@
             </tr>
             <tr>
               <td>6</td>
-              <td>Hotog</td>
+              <td>Hotdog</td>
               <td>18ron</td>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
+</section>
+<section id="contact">
      <footer>
       <h6>Want to learn more...</h6>
-      <img src="./facebook-brands-solid.svg" alt="" style="height: 25px; width: 25px;">
-      <img src="./instagram-brands-solid.svg" alt=""
+    
+        <div class="q-box">
+            <img src="./icons/comment-solid.svg" alt="" style="width: 25px; height: 25px;">
+            <label for="comments" class="l-bottom">Your comments...</label>
+            <input type="text">
+        </div>
+      
+      <ul>
+        <li><img src="./icons/envelope-solid.svg" alt="" style="height: 25px; width: 25px;">  royce.burghardt@dci-student.org</li>
+        <li><img src="./icons/phone-solid.svg" alt="" style="height: 25px; width: 25px;">+49176/34212462</li>
+      </ul>
+      <img src="./icons/facebook-brands-solid.svg" alt="" style="height: 25px; width: 25px;">
+      <img src="./icons/instagram-brands-solid.svg" alt=""
       style="width: 25px; height: 25px;">
-      <img src="./linkedin-brands-solid.svg" alt="" style="width: 25px; height: 25px;">
-
+      <img src="./icons/linkedin-brands-solid.svg" alt="" style="width: 25px; height: 25px;">
 
      </footer>
-    
+    </section>
 </body>
 </html>

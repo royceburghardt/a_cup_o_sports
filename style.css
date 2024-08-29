@@ -1,14 +1,31 @@
     body{
-        background-color: black;
+        background-color: black
     }
     nav{
         display: flex;
+        flex-direction: row;
         position: fixed;
         justify-content: space-evenly;
         align-items: center;
         font-size: x-large;
         background-color: black;
         width: 100vw;
+        height: 100px;
+    }
+    a{
+        height: 50px;
+        width: 100px;
+        background-color: black;
+        color: gray;
+        border: 1px solid black;
+        text-align: center;
+        justify-content: center;
+        font-size: xx-large;
+        &:hover{
+            color: lawngreen;
+            border: 3px solid lawngreen;
+            border-radius: 10%;
+        }        
     }
     label{
         height: 50px;
@@ -126,6 +143,7 @@
         align-items: center;
         margin-top: 35px;
         
+        
     }
     .coffee, .n-alcohol, .snacks{
         display: flex;
@@ -142,7 +160,8 @@
     }
     h6{
         font-size: 30px;
-        text-align: center;
+        margin-bottom: 75px;
+        
     }
     
     footer{
@@ -150,7 +169,30 @@
         color: blue;
         border-top: 1px solid blue;
         margin-top: 25px;
+        height: 280px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: end;
+        
     }
+    .l-bottom{
+        color: blue;
+        margin-bottom: 450px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    input{
+        height: 200px;
+        width: 25rem;
+        background-color: blue;
+        color: white;
+        font-size: 20px;
+        font-size: xx-large;
+        
+    }
+    
     @keyframes scaleup {
         0% {
             transform: scale(0.5);
@@ -186,6 +228,7 @@
               transform-origin: 0% 50%;
       opacity: 1;
     }
+    
     100% {
       -webkit-transform: scale(1);
               transform: scale(1);
@@ -234,8 +277,4 @@
               transform: scale(1);
       opacity: 1;
     }
-  }
-
-
-  
-  
+}
